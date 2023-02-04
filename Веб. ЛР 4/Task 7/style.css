@@ -1,0 +1,53 @@
+div{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(images/0.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.wall{
+    background-image: url(images/6.png);
+    background-repeat: no-repeat;
+    background-position: 230px 180px;
+    height: 100%;
+    width: 100%;
+}
+.girl{
+    background-image: url(images/5.png);
+    background-repeat: no-repeat;
+    background-position: 300px 300px;
+    height: 100%;
+    width: 100%;
+}
+.hat{
+    background-image: url(images/2.png);
+    background-repeat: no-repeat;
+    background-position: 980px 350px;
+    height: 100%;
+    width: 100%;
+}
+.nohat{
+    background-image: url(images/3.png);
+    background-repeat: no-repeat;
+    background-position: 800px 370px;
+    height: 100%;
+    width: 100%;
+}
+.fly{
+    background-image: url(images/4.png);
+    background-repeat: no-repeat;
+    background-position: 900px 560px;
+    height: 100%;
+    width: 100%;
+}
+.moustache{
+    background-image: url(images/1.png);
+    background-repeat: no-repeat;
+    background-position: 0px 556px;
+    height: 100%;
+    width: 100%;
+}

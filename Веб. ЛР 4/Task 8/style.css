@@ -1,0 +1,25 @@
+div>div h1, div>div h2, div>div h3{
+    display: inline;
+}
+hr+div{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.today{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gap h3, .gap h2, .gap h1{
+    display: block;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+span, h3{
+    color: grey;
+}
+.black{
+    color: black;
+}

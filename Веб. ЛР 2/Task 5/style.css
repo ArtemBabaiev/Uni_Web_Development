@@ -1,0 +1,44 @@
+table, tr, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    /* height: 1000px; */
+}
+
+
+th{
+    background-color: yellow;
+}
+td{
+    text-align: center;
+    vertical-align: middle;
+    word-wrap: normal;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+tr.betweens{
+    border-top: 5px solid blue;
+    border-collapse: collapse;
+}
+
+td.days{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    height: 250px;
+    width: 30px;
+    font-weight: bold;
+    font-size:30px;
+}
+td.lessons{
+    width: 200px;
+    height: 75px;
+    font-size: large;
+}
+td.lectures{
+    background-color:#92d14e;
+}
+td.others{
+    font-weight: bold;
+    background-color: #d8d8d8;
+}
+
+

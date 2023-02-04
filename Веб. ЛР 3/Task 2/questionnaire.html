@@ -1,0 +1,214 @@
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    
+    <body>
+        <form action="questionnaire.html">
+            <fieldset>
+                <legend>Персональна інформація</legend>
+                <p>
+                    <label for="fullname">
+                        ПІБ:
+                        <br><input type="text" id="fullname" required placeholder="Введіть ім'я">
+                    </label>
+                </p>
+                <p>
+                    <label for="dateOfBirth">
+                        Дата народження:
+                        <br><input type="date" id="dateOfBirth" required>
+                    </label>
+                </p>
+                <p>
+                    <label for="list">
+                        Країна:
+                        <br><input type="text" id="list" list="data" placeholder="Оберіть країну">
+                    </label>
+                </p>
+                <p>
+                    <label for="age">
+                        Вік:
+                        <br><input type="number" id="age" placeholder="Введіть ваш вік" min="0">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Освіта:
+                    </label>
+                    <br><input type="radio" name="education">Повна середня
+                    <br><input type="radio" name="education">Бакалавр
+                    <br><input type="radio" name="education">Магістр
+                </p>
+            </fieldset>
+        <fieldset>
+            <legend>Контактна інформація</legend>
+            <p>
+                <label for="email">
+                    E-mail:
+                    <br><input type="email" required autocomplete="off" id="email" placeholder="user@mymail.com" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$">
+                </label>
+            </p>
+            <p>
+                <label for="phoneNumber">
+                    Контактний телефон:
+                    <br><input type="tel" required pattern="\+\d-\d{3}-\d{3}-\d{4}" placeholder="+0-000-000-0000">
+                </label>
+            </p>
+            <p>
+                <label for="url">
+                    Сторінка у соц.мережі:
+                    <br><input type="url" placeholder="https.mysite.com"
+                        pattern="https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)">
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Дати</legend>
+            <p>
+                <label for="meeting">
+                    Оберіть день та час для зустрічі:
+                    <br><input type="datetime-local" id="meeting">
+                </label>
+            </p>
+            <p>
+                <label for="holiday">
+                    Оберіть місяць для відпустки:
+                    <br><input type="month" id="holiday">
+                </label>
+            </p>
+            <p>
+                <label for="week">
+                    Оберіть тиждень
+                    <br><input type="week" id="week">
+                </label>
+            </p>
+            <p>
+                <label for="time">
+                    Оберіть час
+                    <br><input type="time">
+                </label>
+            </p>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Додаткова інформація</legend>
+            <p>
+                <label for="pass">
+                    Пароль:<br>
+                    <input type="password" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{6,}$" placeholder="Введіть пароль">
+                </label>
+            </p>
+            <p>
+                <label for="height">
+                    Зрість(см):
+                    1<br><input type="range" step="1" min="1" max="250" value="125" id="height"/>250
+                </label>
+            </p>
+            <p>
+                <label for="favColor">
+                    Оберіть улюблений колір:
+                    <br><input type="color">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Хобі:
+                </label>
+                <br><input type="checkbox">Музичні інструменти
+                <br><input type="checkbox">Спорт
+                <br><input type="checkbox">Інше
+            </p>
+            <p>
+                <label for="searchblock">
+                    search
+                    <br><input type="search" id="searchblock" placeholder="Введіть запит">
+                </label>
+            </p>
+            <p>
+                <label for="about">
+                    Про себе:
+                    <br>
+                    <textarea cols="30" rows="10" spellcheck="false" maxlength="150" placeholder="Текст..."></textarea>
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <progress max="15" value="5"></progress>
+            <p>
+                <meter max="100" low="25" high="75" optimum="50" value="49"></meter>
+            </p>
+        </fieldset>
+        <p>
+            <br><input type="submit">
+            <br><input type="reset">
+        </p>
+    </form>
+    <form action="https://www.facebook.com/artem.babaiev.02">
+        <input type="submit" value="Facebook"/>
+    </form>
+    <form action="https://www.instagram.com/mr.artem_b/">
+        <input type="submit" value="Instagram"/>
+
+    </form><form action="https://twitter.com/ArtemB97519000">
+        <input type="submit" value="Twitter"/>
+    </form>
+
+    <datalist id="data">
+        <option value="Україна"></option>
+        <option value="Франція"></option>
+        <option value="Іспанія"></option>
+        <option value="Швеція"></option>
+        <option value="Норвегія"></option>
+        <option value="Німеччина"></option>
+        <option value="Фінляндія"></option>
+        <option value="Польща"></option>
+        <option value="Італія"></option>
+        <option value="Велика Британія"></option>
+        <option value="Румунія"></option>
+        <option value="Казахстан"></option>
+        <option value="Греція"></option>
+        <option value="Болгарія"></option>
+        <option value="Ісландія"></option>
+        <option value="Угорщина"></option>
+        <option value="Португалія"></option>
+        <option value="Азербайджан"></option>
+        <option value="Австрія"></option>
+        <option value="Чехія"></option>
+        <option value="Сербія"></option>
+        <option value="Ірландія"></option>
+        <option value="Грузія"></option>
+        <option value="Литва"></option>
+        <option value="Латвія"></option>
+        <option value="Хорватія"></option>
+        <option value="Боснія і Герцеговина"></option>
+        <option value="Словаччина"></option>
+        <option value="Естонія"></option>
+        <option value="Данія"></option>
+        <option value="Нідерланди"></option>
+        <option value="Швейцарія"></option>
+        <option value="Молдова"></option>
+        <option value="Бельгія"></option>
+        <option value="Албанія"></option>
+        <option value="Північна Македонія"></option>
+        <option value="Туреччина"></option>
+        <option value="Словенія"></option>
+        <option value="Чорногорія"></option>
+        <option value="Косово"></option>
+        <option value="Кіпр"></option>
+        <option value="Люксембург"></option>
+        <option value="Андорра"></option>
+        <option value="Мальта"></option>
+        <option value="Ліхтенштейн"></option>
+        <option value="Сан-Марино"></option>
+        <option value="Монако"></option>
+        <option value="Ватикан"></option>
+    </datalist>
+    
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+#footer{
+    background-color: #5BC8AC;
+}
+.foot-panel{
+    display: flex;
+    height: 76px;
+    align-items: center;
+}
+.copyright{
+    margin-left: 90px;
+    margin-right: 340px;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    color: #000000;
+}
+.payments{
+    width: 198.11px;
+    display: flex;
+    justify-content: space-between;
+}

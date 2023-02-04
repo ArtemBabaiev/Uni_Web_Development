@@ -1,0 +1,46 @@
+table, tr, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table.pinkBorder, tr.pinkBorder, td.pinkBorder{
+    border: 2px solid deeppink;
+    border-collapse: collapse;
+}
+table.width{
+    width: 120px;
+}
+td.cell1{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+td.cell2{
+    padding: 0px 5px 0px 5px;
+    text-align: center;
+}
+
+thead td, tfoot td, tbody td{
+    padding: 0px 0px 5px 1px;
+}
+
+table.blueTable{
+    border: 2px solid #6699cc;
+    border-collapse: separate;
+    font-family: sans-serif;
+}
+table.blueTable th{
+    border: 1px solid #6699cc;
+    border-collapse: separate;
+    padding: 10px 10px 10px 10px;
+    font-weight: 100;
+    color: #0033b2;
+}
+table.blueTable td{
+    border: 1px solid #6699cc;
+    border-collapse: separate;
+    padding: 10px 10px 10px 5px;
+    font-weight: 100;
+    font-size:small;
+    color: #956699;
+    text-align: left;
+}

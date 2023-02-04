@@ -1,0 +1,31 @@
+a:link{
+    color:gold;
+    border-bottom: gold;
+}
+a:visited{
+    color:orangered;
+    border-bottom: orangered;
+}
+a:hover{
+    color:blue;
+    border-bottom: blue;
+}
+a:active{
+    color:green;
+    border-bottom: green;
+}
+a.under{
+    text-decoration: none;
+}
+a.under:hover{
+    color:blue;
+    border-bottom: 1px solid blue;
+}
+a#icon::before{
+    background-image: url(icon.png);
+    background-size:20px 20px;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+}

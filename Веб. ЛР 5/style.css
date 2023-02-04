@@ -1,0 +1,182 @@
+
+div.circle-image{
+    width: 220px;
+    height: 180px;
+    /* position: relative; */
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 56.5px;
+    margin-top: 10px;
+    filter: drop-shadow(-4px 9px 4px rgba(0, 0, 0, 0.25));
+}
+div.circle-image>img{
+    position: relative;
+    left: -215px;
+    top: -80px;
+    /* height: 849px;
+    width: 558px; */
+}
+td.left-panel{
+    vertical-align: top;
+    width: 333px;
+    background: #71C274;
+    box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 15px 15px 0px;
+}
+ul.personal>li>h2::before{
+    content: "";
+    display: inline-block;
+    background-image:url(Images/user.png);
+    height: 16px;
+    width: 16px;
+    background-size: 16px 16px;
+    margin-right: 3px;
+
+}
+ul.personal>li+li>h2::before{
+    background-image:url(Images/phone-call.png);
+}
+ul.personal>li+li+li>h2::before{
+    background-image:url(Images/email.png);
+}
+div.grid{
+    display: grid;
+    grid-template-columns: 200px 70px;
+    grid-template-rows: 25px 25px 25px;
+    align-items: center;
+}
+div.grid h2{
+    margin: 0;
+}
+
+div.grid-lang{
+    display: grid;
+    grid-template-columns: 150px 100px;
+    grid-template-rows: 45px 40px;
+    align-items: center;
+}
+div.grid-lang h2{
+    margin:0;
+}
+
+img[src="Images/star.png"]{
+    height: 14px;
+    width: 14px;
+    margin-top: 2px;
+}
+td.right-panel{
+
+    vertical-align: top;
+    width: 800px;
+    padding-left: 20px;
+}
+td.right-panel>p{
+    margin-top: 20px;
+    
+}
+td.right-panel>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0;
+}
+hr{
+    position: relative;
+    left: 8px;
+    border: 2px solid #A8B8D0;
+    border-radius: 5%;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;    
+}
+td.right-panel>p+hr{
+    margin-top: 15px;
+}
+td.right-panel li>div{
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(113, 194, 116, 0.5);
+    
+}
+td.right-panel li>div>h2{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2px;
+}
+
+td.right-panel li>p{
+    margin-top: 4px;
+    margin-left: 0;
+}
+
+.educ::before{
+    content: "";
+    display: inline-block;
+    background-image:url(Images/education.png);
+    height: 25px;
+    width: 25px;
+    background-size: 25px 25px;
+    margin-right: 10px;
+}
+.educ::after{
+    content: "";
+    position: relative;
+    left: -119px;
+    top: 7px;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+.educ+ul,.add+ul{
+    margin-top: 10px;
+    padding-left: 40px;
+}
+.add::after{
+    content: "";
+    position: relative;
+    left: -307px;
+    top: 7px;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+.add::before{
+    content: "";
+    display: inline-block;
+    background-image:url(Images/puzzle.png);
+    height: 25px;
+    width: 25px;
+    background-size: 25px 25px;
+    margin-right: 10px;
+}
+li+hr{
+    margin-top: 18px;
+    position: relative;
+    left: -8px;
+    width: calc(100% + 10px);
+}
+.sharp::before{
+    content: "";
+    display: inline-block;
+    background-image:url(Images/csharp-plain.svg);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    background-size: 16px 16px;
+    margin-right: 10px;
+}
+.py::before{
+    content: "";
+    display: inline-block;
+    background-image:url(Images/py.png);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    background-size: 16px 16px;
+    margin-right: 10px;
+}

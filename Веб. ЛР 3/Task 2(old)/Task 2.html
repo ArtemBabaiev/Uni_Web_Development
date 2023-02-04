@@ -1,0 +1,269 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        select.arrows {
+            background-color: white;
+            border: thin solid grey;
+            border-radius: 4px;
+            display: inline-block;
+            font: inherit;
+            line-height: 1.5em;
+            padding: 0.5em 3.5em 0.5em 1em;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+
+        select.arrows {
+            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA3klEQVRIS+3VMU9CMRTF8d8zBL+aizoQFhx0kUk33RzdYMNFXUFnYeGrYYyaJiUxJHDLSxodbNKpfeffc9/pbaPyaCrr+3OA++z4rtT5Pg5GuMnCY9yWQEoBE1xhlUUP8YDrCBIB0vojLvGO0yz4hm4JJAKcYYoPHGOZAUdYoIMBXrc5iQAHeMlzviFygj7O8dkWEJU4XI8chALRhn9AVKHf70VRTHu4wFfbmKZLNKt50dLBnna0imcMd/2I0phWa3Y/D1e1Xa9BCZJG0VuQNpaWKMx72xS1Fl5/WN3BN+AgJhnZQlq4AAAAAElFTkSuQmCC');
+            background-position: calc(100% - .5rem), 100% 0;
+            background-size: 1.5em 1.5em;
+            background-repeat: no-repeat;
+        }
+
+        select.arrows:focus {
+            border-color: blue;
+            outline: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--ФОРМА 1-->
+    <p style="text-align: center;">Форма 1</p>
+    <form action="Task 2.html">
+        <p>
+            <label for="login1">
+                Логін:
+                <input type="text" id="login1">
+            </label>
+        </p>
+        <p>
+            <label for="pass1">
+                Пароль:
+                <input type="password" id="pass1">
+            </label>
+        </p>
+        <p>
+            <label for="repass1">
+                Повторіть пароль:
+                <input type="password" id="repass1">
+            </label>
+        </p>
+        <p>
+            <label>
+                Стать:
+                <input type="radio" name="gender1">чоловік
+                <input type="radio" name="gender1">жінка
+            </label>
+        </p>
+        <p>
+            <label for="countries">
+                Вкажіть країну:
+                <select id="countries">
+                    <option value="">Україна</option>
+                    <option value="">Франція</option>
+                    <option value="">Іспанія</option>
+                    <option value="">Швеція</option>
+                    <option value="">Норвегія</option>
+                    <option value="">Німеччина</option>
+                    <option value="">Фінляндія</option>
+                    <option value="">Польща</option>
+                    <option value="">Італія</option>
+                    <option value="">Велика Британія</option>
+                    <option value="">Румунія</option>
+                    <option value="">Казахстан</option>
+                    <option value="">Греція</option>
+                    <option value="">Болгарія</option>
+                    <option value="">Ісландія</option>
+                    <option value="">Угорщина</option>
+                    <option value="">Португалія</option>
+                    <option value="">Азербайджан</option>
+                    <option value="">Австрія</option>
+                    <option value="">Чехія</option>
+                    <option value="">Сербія</option>
+                    <option value="">Ірландія</option>
+                    <option value="">Грузія</option>
+                    <option value="">Литва</option>
+                    <option value="">Латвія</option>
+                    <option value="">Хорватія</option>
+                    <option value="">Боснія і Герцеговина</option>
+                    <option value="">Словаччина</option>
+                    <option value="">Естонія</option>
+                    <option value="">Данія</option>
+                    <option value="">Нідерланди</option>
+                    <option value="">Швейцарія</option>
+                    <option value="">Молдова</option>
+                    <option value="">Бельгія</option>
+                    <option value="">Албанія</option>
+                    <option value="">Північна Македонія</option>
+                    <option value="">Туреччина</option>
+                    <option value="">Словенія</option>
+                    <option value="">Чорногорія</option>
+                    <option value="">Косово</option>
+                    <option value="">Кіпр</option>
+                    <option value="">Люксембург</option>
+                    <option value="">Андорра</option>
+                    <option value="">Мальта</option>
+                    <option value="">Ліхтенштейн</option>
+                    <option value="">Сан-Марино</option>
+                    <option value="">Монако</option>
+                    <option value="">Ватикан</option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <label for="about">
+                Про себе:
+                <textarea id="about" cols="30" rows="3" placeholder="Я..."></textarea>
+            </label>
+        </p>
+        <p>
+            <input type="submit">
+        </p>
+    </form>
+
+    <!--ФОРМА 2-->
+    <hr>
+    <p style="text-align: center;">Форма 2</p>
+    <form action="Task 2.html">
+        <table>
+            <tr>
+                <td>Логін:</td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>Пароль:</td>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <td>Повторіть пароль:</td>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <td>Стать:</td>
+                <td>
+                    <input type="radio" name="gender2">чоловік
+                    <input type="radio" name="gender2">жінка
+                </td>
+            </tr>
+            <tr>
+                <td>Вкажіть місто:</td>
+                <td>
+                    <select multiple name="" id="">
+                        <option value="">Житомир</option>
+                        <option>Київ</option>
+                        <option>Львів</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Інтереси:</td>
+                <td>
+                    <input type="checkbox" value="f">футбоол
+                    <input type="checkbox" value="ch">шахи
+                    <input type="checkbox" value="p">малювання
+                    <input type="checkbox" value="m">музика
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="reset">
+                    <input type="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <!--ФОРМА 3-->
+    <hr>
+    <p style="text-align: center;">Форма 3</p>
+    <form action="Task 2.html" class="greycolor">
+            <p>
+                <label for="fname">
+                    First name
+                    <input id="fname" type="text" placeholder="Enter first name">
+                </label>
+            </p>
+
+            <p>
+                <label for="lname">
+                    Last name
+                    <input id="lname" type="text" placeholder="Enter last name">
+                </label>
+            </p>
+            <p>
+                <label for="email">
+                    Email
+                    <input id="email" type="email" placeholder="Enter email">
+                </label>
+            </p>
+            <p>
+                <label for="pass2">
+                    Password
+                    <input id="pass2" type="password" placeholder="Enter password">
+                </label>
+            </p>
+            <p>
+                <label for="date">
+                    Born in
+                    <input id="date" type="date">
+                </label>
+            </p>
+            <p>
+                en<input type="radio" name="where">ua<input type="radio" name="where">
+            </p>
+            <p>
+                select gender
+                <select id="sex" class="arrows">
+                    <option value="">male</option>
+                    <option value="">female</option>
+                </select>
+            </p>
+            <p>
+                <input type="submit">
+            </p>
+            <input type="file">
+    </form>
+
+    <!--ФОРМА 4-->
+    <hr>
+    <p style="text-align: center;">Форма 4</p>
+    <form action="Task 2.html">
+        
+    </form>
+
+
+    <!--ФОРМА 5-->
+    <hr>
+    <p style="text-align: center;">Форма 5</p>
+
+
+
+    <!--ФОРМА 6-->
+    <hr>
+    <p style="text-align: center;">Форма 4</p>
+
+
+    <!--ФОРМА 7-->
+    <hr>
+    <p style="text-align: center;">Форма 4</p>
+</body>
+
+</html>

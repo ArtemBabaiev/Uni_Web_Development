@@ -1,0 +1,81 @@
+#content {
+    background: linear-gradient(180deg, #98DBC6 44.79%, #5BC8AC 100%);
+}
+
+.clothes-screen {
+    position: relative;
+    height: 840px;
+}
+
+
+
+.goods {
+    padding-top: 50px;
+    width: 1060px;
+    height: 740px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 88px;
+}
+
+.goods div {
+    position: relative;
+    width: 199px;
+    height: 345px;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+
+.goods>a:hover>div {
+    box-shadow: 0px 0px 25px #e6d62a;
+
+}
+
+.goods img {
+    width: 175px;
+    height: 220px;
+    margin: 25px 12.5px 0 12.5px;
+}
+
+.good-name {
+    position: absolute;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    left: 9px;
+    top: 254px;
+    color: #000000;
+}
+
+.prev-price {
+    position: absolute;
+    left: 22px;
+    top: 310px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #F18D9E;
+}
+.prev-price::before{
+    position: absolute;
+    top: -18px;
+    left: 22;
+    content: "";
+    width: 0px;
+    height: 50.29px;
+    background-color: #F0415F;
+    border: 2px solid #F0415F;
+    transform: rotate(-72.65deg);
+}
+
+.current-price {
+    position: absolute;
+    left: 91px;
+    top: 304px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #F0415F;
+}

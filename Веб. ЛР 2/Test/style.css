@@ -1,0 +1,16 @@
+.cls{
+    color:brown;
+    font-weight: bold;
+    font-style: italic;
+}
+table{
+    width: 200px;
+}
+table, td, tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td{
+    padding: 10px;
+    text-align: right;
+}

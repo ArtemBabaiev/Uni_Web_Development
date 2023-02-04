@@ -1,0 +1,112 @@
+/*верхняя панель*/
+body>div{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.background{
+    position: absolute;
+    background-color: #27ae60;
+    height: 70px;
+    width: calc(100% + 10px);
+    z-index: -1;
+    top: -20px;
+    transition: 0.3s;
+}
+input:checked~.background{
+    height: 400px;
+}
+.image{
+    padding: 10px;
+    float: left;
+}
+/*список*/
+ul{
+    position: absolute;
+    right: 40px;
+    /* display: none; */
+    visibility: hidden;
+    opacity:0;
+    list-style-type: none;
+    margin: 0;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #aeeac8;
+    transition: 0s;
+    font-size: 30;
+    font-family: Arial, Helvetica, sans-serif;
+    transition-delay: 0.4s;
+    transition:0.3s;
+}
+li{
+    cursor: pointer;
+}
+li:hover{
+    color: white;
+}
+input:checked~ul{
+    visibility:visible;
+    opacity:1;
+    transition:0.2s;
+
+}
+
+/*кнопка*/
+div.active{
+    position: relative;
+    margin-right: 20px;
+    margin-top: 20px;
+  
+}
+input{
+    display: none;
+
+}
+label{
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: right;
+    position: relative; 
+    width: 40px; height: 30px; 
+    transition: 0.3s; 
+}
+label::before{
+    content: '';
+    position: absolute; 
+    left:0;
+    height: 38%;
+    width: 100%;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    transition: 0.3s;
+
+}
+label::after{
+    content: '';
+    position: absolute; 
+    height: 0px;
+    top:100%;
+    width: 100%;
+    border-top: 4px solid white;
+    transition: 0.3s;
+}
+input:checked+label::before{
+    border-bottom: none;
+    height: 0;
+    transform: rotate(45deg);
+    top:35%;
+
+    transition: 0.3s;
+}
+input:checked +label::after{
+    transform: rotate(-45deg) ;
+    top: 38%;
+    transition: 0.3s;
+}
+
+
+
+
+

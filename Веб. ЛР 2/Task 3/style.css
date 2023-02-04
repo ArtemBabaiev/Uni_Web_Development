@@ -1,0 +1,21 @@
+ul.square{
+    list-style: square;
+}
+ul.disk{
+    list-style: disc;
+}
+ol.lowLetters{
+    list-style: lower-alpha;
+}
+ol.lowRomans{
+    list-style: lower-roman;
+}
+ol.highLetters{
+    list-style:upper-alpha;
+}
+ol.highRomans{
+    list-style: upper-roman;
+}
+ul.imageStyle{
+    list-style-image: url(pict.png);
+}

@@ -1,0 +1,26 @@
+p{
+    color: green;
+    text-align: center;
+}
+p.redColor{
+    color: red;
+}
+#pinkColor{
+    color: pink;
+}
+
+a{
+    color: pink;
+}
+body>ul>li>a{
+    color: green;
+}
+body>ul>li>ul{
+    list-style-type: none;
+}
+ul>li+li+li>ul{
+    list-style-type: square;
+}
+ul>li+li+li>ul>li>a{
+    text-decoration: none;
+}

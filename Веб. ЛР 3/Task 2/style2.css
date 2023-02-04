@@ -1,0 +1,66 @@
+body{
+    background-color: #673bb7;
+}
+form{
+    margin: auto;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+}
+legend{
+    font-weight: 900;
+    font-size:25px;
+    background-color: #eee8f6;
+    border-radius: 5px;
+
+
+}
+fieldset{
+    background-color: #eee8f6;
+
+    border: 7px solid black;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: olivedrab;
+    width: 80%;
+    /* box-shadow: none; */
+}
+input::placeholder{
+    color: wheat;
+
+}
+input[type="radio"], input[type="checkbox"]{
+    width: auto;
+    font-weight: 400;
+    font-size: small;
+}
+input[type="color"]{
+height: 50px;
+}
+input[type="reset"],input[type="submit"]{
+    width: 100%;
+}
+input[type="reset"]:focus, input[type="submit"]:focus{
+    border:3px solid aqua;
+    
+}
+input[type="reset"]:hover, input[type="submit"]:hover{
+    color:yellow;
+    /* border-bottom: yellow; */
+}
+input[type="reset"]:active, input[type="submit"]:active{
+    color:red;
+    /* border-bottom: red; */
+    box-shadow: 10px 10px 10px red;
+}

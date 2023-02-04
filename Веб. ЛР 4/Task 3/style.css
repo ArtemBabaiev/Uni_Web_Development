@@ -1,0 +1,13 @@
+li{
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    background-color: #e2f2f1;
+    color: #4d5455;
+    transition: 0.1s;
+}
+li:hover{
+    background-color: red;
+    color: black;
+    border-bottom: 2px solid #50aea4;
+    cursor:pointer;
+}

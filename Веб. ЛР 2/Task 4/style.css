@@ -1,0 +1,121 @@
+table, tr, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table.pinkTable{
+    border: 2px solid deeppink;
+    border-collapse: collapse;
+    width: 120px;
+}
+table.pinkTable td{
+    border: 2px solid deeppink;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+td.cell2{
+    padding: 0px 5px 0px 5px;
+    text-align: center;
+}
+
+thead td, tfoot td, tbody td{
+    padding: 2px 2px 5px 5px;
+}
+
+table.blueTable{
+    border: 2px solid #6699cc;
+    border-collapse: separate;
+    font-family: sans-serif;
+}
+table.blueTable th{
+    border: 1px solid #6699cc;
+    border-collapse: separate;
+    padding: 10px 10px 10px 10px;
+    font-weight: 100;
+    color: #0033b2;
+}
+table.blueTable td{
+    border: 1px solid #6699cc;
+    border-collapse: separate;
+    padding: 10px 10px 10px 8px;
+    font-weight: 100;
+    font-size:small;
+    color: #956699;
+    text-align: left;
+}
+
+table.semiBlueTable{
+    border: 2px solid #993401;
+    border-collapse: collapse;
+    width: 280px;
+    height: 200px;
+}
+table.semiBlueTable th{
+    border: 2px solid #993401;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: "Verdana";
+    font-weight: 500;
+    background-color: #0033b2;
+    color:gold;
+    padding: 7px 0px 20px 5px;
+    height: 50px;
+}
+table.semiBlueTable td{
+    border: 2px solid #993401;
+    border-collapse: collapse;
+    font-family: "Comic Sans MS";
+    background-color: #f3e1c7;
+    vertical-align: top;
+}
+
+table.preLastTable{
+    border: 2px solid #accc85;
+    border-collapse: collapse;
+    width: 350px;
+    height: 300px;
+}
+table.preLastTable th{
+    font-family: "Verdana";
+    border: 2px solid #accc85;
+    border-collapse: collapse;
+    background-color: darkgreen;
+    height: 65px;
+    width: 175px;
+    text-align: left;
+    padding: 10px;
+    color:#c4bb2d;
+    font-weight: 500;
+    font-size: 25px;
+}
+table.preLastTable td{
+    font-family: "Comic Sans MS";
+    border: 2px solid #accc85;
+    border-collapse: collapse;
+}
+
+table.lastTable{
+    border: 3px solid #952b00;
+    border-collapse: collapse;
+    width: 300px;
+    height: 300px;
+}
+table.lastTable th{
+    height: 65px;
+    width: 175px;
+    text-align: left;
+    padding: 10px;
+    border: 3px solid #952b00;
+    border-collapse: collapse;
+    font-family: "Verdana";
+    font-weight: 500;
+    font-size: 25px;
+    background-color: #a27eb3;
+
+}
+table.lastTable td{
+    border: 3px solid #952b00;
+    border-collapse: collapse;
+    font-family: "Comic Sans MS";
+    vertical-align: top;
+}
